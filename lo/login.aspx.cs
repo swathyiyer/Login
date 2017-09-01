@@ -42,7 +42,9 @@ namespace lo
                 
                     else
                     {
-                        
+                          
+
+
                         SqlDataAdapter sqlCmd = null;
                         sqlCmd = new SqlDataAdapter("pro1", con);
                         sqlCmd.SelectCommand.CommandType = CommandType.StoredProcedure;
